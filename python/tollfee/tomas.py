@@ -28,11 +28,11 @@ my_datetime13 = datetime.datetime(2022, 1, 7, 18, 5, 00)
 my_datetime14 = datetime.datetime(2022, 1, 7, 18, 35, 00)
 my_datetime15 = datetime.datetime(2022, 1, 7, 19, 35, 00)
 
-print(get_toll_fee(my_car, [my_datetime1, my_datetime3]))
-print(get_toll_fee(my_car, [my_datetime1, my_datetime2, my_datetime3]))
-print(get_toll_fee(my_car, [my_datetime1, my_datetime2, my_datetime3, my_datetime4]))
+#print(get_toll_fee(my_car, [my_datetime1, my_datetime3]))
+#print(get_toll_fee(my_car, [my_datetime1, my_datetime2, my_datetime3]))
+#print(get_toll_fee(my_car, [my_datetime1, my_datetime2, my_datetime3, my_datetime4]))
 
 # Test max fee
 print(get_toll_fee(my_car, [my_datetime1, my_datetime2, my_datetime3, my_datetime4, my_datetime5, my_datetime6, my_datetime7, my_datetime8, my_datetime9, my_datetime10]))
-print(toll_fee_passage(my_datetime1, my_car))
+#print(toll_fee_passage(my_datetime1, my_car))
 
